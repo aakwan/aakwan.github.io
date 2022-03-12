@@ -8,14 +8,13 @@ _Italic Text_
 
 ## Current Projects
 
-* Bullet Point 1
-*  
-* Bullet Point 3
+* [link to background](/background)
+* [link to background](/background)
 
 ## Previous Projects
 
-![image caption](https://idealab.asu.edu/assets/images/research/jumper1.png)
-
-[link to background](/background)
+* [link to background](/background)
+* [link to background](/background)
+* [link to background](/background)
 
 ## Resume
