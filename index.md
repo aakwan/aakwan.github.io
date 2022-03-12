@@ -9,9 +9,9 @@ This is Anson Kwan's portfolio website. Here I document all the existing and cur
 
 ## Previous Projects
 
+* [Testbed for Stiffening Actuators](/Kaiteki)
+* [Oscilating Exoskeleoton](/Exo)
 * [](/background)
-* [link to background](/background)
-* [link to background](/background)
 
 ## Resume
 
