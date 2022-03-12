@@ -1,8 +1,4 @@
----
-title: Anson Kwan's Porfolio
----
-
-# Welcome
+# Welcome to Anson Kwan's Portfolio
 
 This is Anson Kwan's portfolio website. Here I document all the existing and current projects that I have worked on.
 
