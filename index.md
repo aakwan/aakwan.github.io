@@ -15,4 +15,4 @@ This is Anson Kwan's portfolio website. Here I document all the existing and cur
 
 ## Resume
 
-* [link to background](/Images/Anson_Kwan_Resume.pdf)
+* [Resume](/Images/Anson_Kwan_Resume.pdf)
