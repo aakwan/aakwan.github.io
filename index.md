@@ -1,10 +1,10 @@
 ---
-title: Home
+title: Anson Kwan's Porfolio
 ---
 
-# Home
+# Welcome
 
-## Introduction
+This is Anson Kwan's portfolio website. Here I document all the existing and current projects that I have worked on.
 
 **Bold Text**
 _Italic Text_
