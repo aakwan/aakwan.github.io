@@ -7,6 +7,7 @@ program. In order to participate in this program
 
 # Poster
 
-<img align="center" src="https://aakwan.github.io/Images/AnsonKwan_FuriSpring2021.jpg" width="px" 864height="576px"/>
+
+<img src="https://aakwan.github.io/Images/AnsonKwan_FuriSpring2021.jpg" width="px" 864height="576px" align="center"/>
 
 [Return](/index)
