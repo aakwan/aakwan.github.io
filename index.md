@@ -1,4 +1,6 @@
-# Welcome to Anson Kwan's Portfolio
+---
+title: Welcome to Anson Kwan's Portfolio
+---
 
 This is Anson Kwan's portfolio website. Here I document all the existing and current projects that I have worked on.
 
@@ -16,3 +18,8 @@ This is Anson Kwan's portfolio website. Here I document all the existing and cur
 ## Resume
 
 <embed src="https://aakwan.github.io/Images/Anson_Kwan_Resume.pdf" width="772px" height="1050px"/>
+
+## Contact Information
+
+ * **Email: ** aakwan2@asu.edu
+ * **Phone Number: ** (626) 512-2444
