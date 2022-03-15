@@ -3,7 +3,8 @@ title: Testbed for Stiffening Actuators
 ---
 
 This project was funded by Arizona State University through the Fulton Undergraduate Research Initiative
-program. In order to participate in this program 
+program. In order to get funding for this program I wrote a two page proposal, citing the motivation, exisitng research, and
+plan of action for this project. After getting accepted, I recieved a $3000 stipend and alotted $800 budget.
 
 # Poster
 
