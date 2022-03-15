@@ -14,4 +14,6 @@ This is Anson Kwan's portfolio website. Here I document all the existing and cur
 * [](/background)
 
 ## Resume
+
 <a href="aakwan.github.io/Images/Anson_Kwan_Resume.pdf" target="_blank">Resume</a>
+{{ aakwan.github.io }}/Images/Anson_Kwan_Resume.pdf
