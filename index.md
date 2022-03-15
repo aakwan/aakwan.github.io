@@ -21,5 +21,5 @@ This is Anson Kwan's portfolio website. Here I document all the existing and cur
 
 ## Contact Information
 
- * **Email: ** akwan2@asu.edu
- * **Phone Number: ** (626) 512-2444
+ * **Email:** akwan2@asu.edu
+ * **Phone Number:** (626) 512-2444
