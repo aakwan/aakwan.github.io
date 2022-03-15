@@ -15,4 +15,4 @@ This is Anson Kwan's portfolio website. Here I document all the existing and cur
 
 ## Resume
 
-<embed src="https://aakwan.github.io/Images/Anson_Kwan_Resume.pdf" width="600px" height="500px"/>
+<embed src="https://aakwan.github.io/Images/Anson_Kwan_Resume.pdf" width="2550px" height="3300px"/>
