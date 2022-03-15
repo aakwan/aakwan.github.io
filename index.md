@@ -5,7 +5,7 @@ This is Anson Kwan's portfolio website. Here I document all the existing and cur
 ## Current Projects
 
 * [The Efficiency of Spine Stiffness for Anguilliform Locomotion](/spines)
-* [Upskilling the Workforce for Industry 4.0](/training_Station)
+* [Upskilling the Workforce for Industry 4.0](/training_station)
 
 ## Previous Projects
 
