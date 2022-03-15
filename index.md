@@ -4,14 +4,14 @@ This is Anson Kwan's portfolio website. Here I document all the existing and cur
 
 ## Current Projects
 
-* [The Efficiency of Spine Stiffness for Anguilliform Locomotion](/Spines)
-* [Upskilling the Workforce for Industry 4.0](/Training_Station)
+* [The Efficiency of Spine Stiffness for Anguilliform Locomotion](/spines)
+* [Upskilling the Workforce for Industry 4.0](/training_Station)
 
 ## Previous Projects
 
-* [Testbed for Stiffening Actuators](/Kaiteki)
-* [Embedded Systems Project](/Embedded)
-* [Oscilating Exoskeleoton](/Exo)
+* [Testbed for Stiffening Actuators](/kaiteki)
+* [Embedded Systems Project](/embedded)
+* [Oscilating Exoskeleoton](/exo)
 
 ## Resume
 
