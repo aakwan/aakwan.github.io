@@ -8,7 +8,6 @@ plan of action for this project. After getting accepted, I recieved a $3000 stip
 
 # Poster
 
-
 <img width="100%" height="100%" align="center" src="https://aakwan.github.io/Images/AnsonKwan_FuriSpring2021.jpg">
 
 [Return](/index)
