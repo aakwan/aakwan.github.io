@@ -1,4 +1,6 @@
-
+---
+title: The Efficiency of Spine Stiffness for Anguilliform Locomotion
+---
 
 # Background
 
