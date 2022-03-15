@@ -7,6 +7,6 @@ program. In order to participate in this program
 
 # Poster
 
-<embed src="https://aakwan.github.io/Images/AnsonKwan_FuriSpring2021.jpg" width="px" 864height="576px" align="center"/>
+<embed align="center" src="https://aakwan.github.io/Images/AnsonKwan_FuriSpring2021.jpg" width="px" 864height="576px"/>
 
 [Return](/index)
