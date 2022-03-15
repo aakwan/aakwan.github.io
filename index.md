@@ -15,4 +15,4 @@ This is Anson Kwan's portfolio website. Here I document all the existing and cur
 
 ## Resume
 
-* [Resume](<a href="username.github.io/Images/Anson_Kwan_Resume.pdf" target="_blank">PDF.</a>)
+* [Resume](<a href="aakwan.github.io/Images/Anson_Kwan_Resume.pdf" target="Resume">PDF.</a>)
