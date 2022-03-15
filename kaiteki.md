@@ -2,12 +2,8 @@
 title: Testbed for Stiffening Actuators
 ---
 
-# Background
+# Poster
 
-## Introduction
-
-## Conclusions
-
-## References
+<embed src="https://aakwan.github.io/Images/AnsonKwan_FuriSpring2021.jpg" width="772px" height="1050px"/>
 
 [Return](/index)
