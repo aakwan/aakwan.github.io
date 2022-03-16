@@ -17,7 +17,7 @@ This is Anson Kwan's portfolio website. Here I document all the existing and cur
 
 ## Resume
 
-<embed src="https://aakwan.github.io/Images/Anson_Kwan_Resume.pdf" width="772px" height="1050px"/>
+<img width="100%" height="100%" align="center" src="https://aakwan.github.io/Images/Anson_Kwan_Resume.pdf">
 
 ## Contact Information
 
