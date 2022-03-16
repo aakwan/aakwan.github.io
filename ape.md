@@ -6,8 +6,10 @@ title: Assitive Pulley Exoskeleton (APE)
 
 ## Introduction
 
-## Conclusions
+## Pulley Versions
 
-## References
+## Videos
+<video src="https://aaakwan.github.io/Videos/Test.MOV" controls="controls" style="max-width: 730px;">
+</video>
 
 [Return](/index)
