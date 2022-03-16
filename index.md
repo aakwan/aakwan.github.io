@@ -13,7 +13,7 @@ This is Anson Kwan's portfolio website. Here I document all the existing and cur
 
 * [Testbed for Stiffening Actuators](/kaiteki)
 * [Embedded Systems Project](/embedded)
-* [Oscilating Exoskeleoton](/exo)
+* [Assistive Pulley Exoskeleton (APE)](/ape)
 
 ## Resume
 
