@@ -2,11 +2,9 @@
 title: The Efficiency of Spine Stiffness for Anguilliform Locomotion
 ---
 
-**Efficiency of Spine Stiffness for Anguilliform Locomotion**
 
-Anson Kwan, Daniel M. Aukes and Hamid Marvi
 
-_ **Abstract** _ **- In this paper, we discuss the methods and requirements to simulate a soft bodied beam using traditional rigid body kinematics to produce motion inspired by eels. Eels produce a form of undulatory locomotion called anguilliform locomotion that propagates waves throughout the entire body. The system that we are analyzing is a flexible 3D printed beam being actively driven by a servo motor. Using the simulation, we also analyze different parameters for these spines to maximize the linear speed of the system.**
+_**Abstract**_ **- In this paper, we discuss the methods and requirements to simulate a soft bodied beam using traditional rigid body kinematics to produce motion inspired by eels. Eels produce a form of undulatory locomotion called anguilliform locomotion that propagates waves throughout the entire body. The system that we are analyzing is a flexible 3D printed beam being actively driven by a servo motor. Using the simulation, we also analyze different parameters for these spines to maximize the linear speed of the system.**
 
 1. Introduction
 
