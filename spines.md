@@ -6,7 +6,7 @@ title: The Efficiency of Spine Stiffness for Anguilliform Locomotion
 
 _**Abstract**_ **- In this paper, we discuss the methods and requirements to simulate a soft bodied beam using traditional rigid body kinematics to produce motion inspired by eels. Eels produce a form of undulatory locomotion called anguilliform locomotion that propagates waves throughout the entire body. The system that we are analyzing is a flexible 3D printed beam being actively driven by a servo motor. Using the simulation, we also analyze different parameters for these spines to maximize the linear speed of the system.**
 
-1. Introduction
+## 1. Introduction
 
 The locomotion of fish has been a well studied topic over the past few decades. Due to the developments of high speed video cameras, researchers have been able to gain a better understanding of fish locomotion, especially body/caudal fin pulpursion (BCF). BCF is the classification of swimming that generates propulsion through propagating waves through their bodies [1][2]. Eels utilize anguilliform locomotion, which exhibits the largest propagation of waves through the body relative to other forms of undulatory propulsion as seen in Fig. 1 (a). We are focusing on the motion of eels as opposed to other undulatory movements because they utilize the majority of their body to generate propulsion. Additionally, their body anatomy is very simplistic, largely consisting of the singular body fin as seen in Fig. 1(b). This makes the inspired design significantly less complex as no additional pectoral fins are necessary to generate this locomotion.
 
@@ -14,19 +14,19 @@ The locomotion of fish has been a well studied topic over the past few decades. 
 
 **Fig. 1.** (a)Four classical undulatory propulsion with corresponding gait cycles [1]. This figure highlights the phases and displacement of the fish during anguilliform locomotion. (b) Side profile of eels, noting that the body is the major fin of anguilliform propulsion [1].
 
-  1. _Eel Inspired Robots_
+  A. _Eel Inspired Robots_
 
 Previous research on bio-inspired eel robots has been developed as soft bodied devices and classical rigid robots. Nguyen _et al._ [3] developed an inflatable balloon actuator that requires being connected in parallel and in series in order to produce this sinusoidal propagation. Fremerey [4] utilized a singular inflatable actuator to generate this motion. Both researchers displayed a good method of producing undulatory motion and variability of propagating a wave. However, the method to manufacture the actuator is highly complex and requires a multitude of steps and tools to produce. On the other hand, Fremerey [5] and Chen [6] utilize a tunable, spring rotational joint that is connected in series to produce the propagation. This device displays the capabilities of rigid body systems, but requires a highly complex system and dozens of parts in order to generate this motion. Regardless of either method, both soft and rigid devices require highly complex and multiple actuators in order to create propulsion.
 
-  1. _Motivation_
+  B. _Motivation_
 
 From the previous research done with regards to eel inspired robots, this research is inspired to investigate a system that requires only a single actuator with a flexible spine and determine a method in which to model the system using classical rigid techniques. The goal of this research is twofold:
 
 1. To build a rigid body model in simulation to describe the soft beam system
 2. Investigate the design parameters of the spine and tune it to maximize the speed and wave propagation
 
-1. Approach &amp; Methodology
-  1. _Prototypes_
+## 2. Approach &amp; Methodology
+  A. _Prototypes_
 
 In order to better understand the relationship of the material characteristics to damping and spring constant values, multiple spines with varying tapers along the length of the beam were printed as seen in Fig. 2. The spines were printed as solid Thermoplastic polyurethane (TPU) beams. The length of each spine was 0.25m as shown in Tab. Ⅰ because this was the limitation of the print bed. Longer spines could have been created through joining multiple segments but in order to minimize exterior factors, it was best to use only one segment to isolate the characteristics of the spine.
 
@@ -34,7 +34,7 @@ In order to better understand the relationship of the material characteristics t
 
 By creating different tapers, the objective was to investigate and isolate the characteristics of damping and stiffness with regards to TPU. The taper along the length was determined to generate the stiffness gradient because it was the only direction of taper that could be consistent with the method of manufacturing. A taper along the width of the spine could not be repeatable due to the variation in layer heights with different tapers when 3D printing. This would result in a varied amount of material depending on the taper and not produce meaningful results because of this irregularity.
 
-  1. _Kinematic Model_
+  B. _Kinematic Model_
 
 To better understand the characteristics of the flexible spine, we chose to estimate the system as a series of flat plate links and torsional springs as seen in Fig. 3. The spine was broken into equal segments where the damping and spring constants were scaled using the equations below:
 
@@ -56,15 +56,15 @@ Where _C__d_ is the drag coefficient, _⍴_ is the density of water, _v_ is the 
 
 ![](RackMultipart20220322-4-18z5m5t_html_3539dca06286b216.png) **Fig. 4.** Testing configuration to measure dynamic tests. Reflective marker at the non fixed end tracked through an Optitrack system. Left is the neutral state and the right is drawn 100mm to the right.
 
-  1. _Experimental Setup_
+  C. _Experimental Setup_
 
 As mentioned previously, the damping, spring, and drag coefficients were highly dependent on the test configuration and design used for the spines. To get a better understanding of these properties we conducted a dynamic, frontal drag, and constrained swimming experiment
 
-Dynamics
+_Dynamics_
 
 The spines were attached to a fixed plate and a reflective marker was attached to the free end of the spine as seen in Fig. 4. The spine was then pulled back to 100mm by hand with a string and then released. The tracked data was then recorded using an Optitrack track system that measured at 360 fps.
 
-Frontal Drag
+_Frontal Drag_
 
 To calculate the frontal drag coefficient and effective surface area, we attached a force sensor to the spine and dragged it through stable water conditions of a tank seen in Fig. 5.
 
@@ -78,19 +78,19 @@ Due to the frontal surface area being very small it was assumed that the results
 
 **Fig. 6.** Testing set up in a water tank. (Top) Blue line is a string pulled by a servo and the orange line is a string to stabilize the carriage. (Bottom) UR-5 robot initial configuration to drag the spine through water.
 
-Constrained Swimming
+_Constrained Swimming_
 
 For the constrained swimming experiment, the spines were mounted to a similar carriage as in Fig. 5 but instead of a force sensor, a servo was attached to the spine and was put in a test set up like Fig. 6 (a) to allow for free planar motion in the tank. The purpose of this test was to analyze how the spines would work under swimming conditions. The data would then be compared to a swimming simulation of the spines to determine how well the model matched the physical system. This will be further discussed in Section Ⅳ.
 
-  1. _Data Collection_
+  D. _Data Collection_
 
-Dynamics
+_Dynamics_
 
 From the dynamics test, the data collected for each taper is shown below in Fig. 7. The data was cut off at 80% of the 100mm pull back position of the test denoted in the cut data of Fig. 7. The reason for this was to ![](RackMultipart20220322-4-18z5m5t_html_875b1ccdf3668f33.png) **Fig. 7.** Data collected from dynamic spine test. The full data is the entire test and the cut data is truncating data after the tip reaches 20% of the initial state.
 
 avoid the inherent viscoelastic hysteresis of the material. This property of TPU and other flexible materials is what causes the material to come to rest close to the neutral position and then creep over an extended period of time to reach the final neutral position. This characteristic is exhibited from 3-6 seconds in Fig. 7 as the spines slowly return to the zero position. If included, this data would therefore artificially decrease the damping and spring constant due to implying that the spines are stiffer than in reality.
 
-Frontal Drag
+_Frontal Drag_
 
 In the frontal drag experiment, the velocity and drag force were the design parameters and measured results for this test. Using eq. 3, the following front drag constant was derived:
 
@@ -98,7 +98,7 @@ In the frontal drag experiment, the velocity and drag force were the design para
 
 The effective drag area was unknown for the system, which is why it is accounted for in the frontal drag constant. In collecting the data it was observed that the measured force was in the range of 0.04-0.01 N which was within the noise range of the sensor which can be seen in Appendix Ⅰ. Therefore, it was difficult to calculate a constant that accurately reflected the system. Based on the data collected from the experiment an estimated value was shown in Tab. 1. The results of the frontal drag experiment did not lead to any direct results and a higher resolution sensor is necessary to determine conclusive results.
 
-Constrained Swimming
+_Constrained Swimming_
 
 The results of the swimming experiment are shown in Fig. 8 below. This data will be ![](RackMultipart20220322-4-18z5m5t_html_d23b5f487839ec48.png) **Fig. 8.** Data collected from the constrained swimming tests. The data is only plotting the linear motion of the head along the direction of motion.
 
@@ -106,11 +106,11 @@ compared with the simulated swimming experiment later in the paper in Section �
 
 This sweep angle and frequency were held constant for all three tests. High speed videos were then recorded of each spine and used for data collection. This data was collected through using a tracking software called Tracker to plot the position of the head in recorded videos of the experiment.
 
-1. Simulation Model
+## 3. Simulation Model
 
 Next, I used the python package pynamics to solve for the equations of motion to simulate the system designed as seen in Fig. 2 and 9. In order to accurately represent the proposed system, it was determined to represent the tapers of the spine as a series of stepped flat plates seen in Fig. 9. The reason for this was because the inertia equations could be easily
 
-Table Ⅰ
+_Table Ⅰ_
 
 Simulation Constant Variables
 
@@ -151,11 +151,11 @@ Global x and y positions were added to the simulation to allow for the simulated
 
 Where _A_ is the amplitude, _f_ is the frequency, and _t_ is the simulation time. Both the amplitude and frequency values are defined in Tab. Ⅰ. The dynamic constraint is then applied to the first link of the simulation, to mimic the torque applied to the head of the swimming experiment.
 
-1. Results and Discussion
+## 4. Results and Discussion
 
 The results of the python model compared to the constrained swimming test experiments denote that the model produces similar trends and velocities as the swimming test. This can be seen in Tab. Ⅱ. For the 0 and 2.25 deg tapers, there are larger differences between the two velocities due to two main discrepancies between the model and experiment.
 
-Table Ⅱ
+_Table Ⅱ_
 
 Spine Head Velocities
 
@@ -169,7 +169,7 @@ The first is that the model does not take into account the turbulence created fr
 
 The second discrepancy is that the frontal drag constant plays a significant role in tuning the model to the experimental data. Since the constant is an estimate based off the experiment discussed previously, future work would include further analysis and tuning of this value. These errors are validated in steep taper data of Tab. Ⅱ. The steep taper spine (Fig. 2) has the least surface area which results in the smallest aerodynamic forces applied onto the spine. This suggests that the rebound turbulence of the tank has the least effect of the three spines and that the drag constant is still too large in the python model.
 
-1. Conclusion and Future Work
+## 5. Conclusion and Future Work
 
 Despite these two errors between the model and experiment, the velocities and motion correlated very well. While the velocities did not directly match, both the simulation and experiment exhibited the trend of decreased velocity as the taper increased. Therefore, using a rigid body approximation of the soft system is sufficient. Additionally, external forces of fluid dynamics and precise tuning of coefficients are not necessary to model the system. Additionally, it is not necessary to have complex soft or rigid body systems to create bioinspired anguilliform locomotion. Through a simple actuated soft spine, it is possible to accurately simulate and design an inexpensive and simplified robot.
 
@@ -177,7 +177,7 @@ As mentioned previously improvements could be made to the drag constant and furt
 
 A secondary swimming test where the device could be in a larger open body of water would be a better test of the overall device. The reason for this is that the turbulence of the device spine would have a lesser effect on the performance of the spine since no rebound forces would be generated. Also, by not constraining the planar movement and having a short linear distance, it would be possible to better compare the simulation to the physical device. This is because as seen in Fig. 8 the spines decelerated as they approached the end of the tank at 0.5m. If there was a larger run distance, the device would be able to achieve a more accurate velocity.
 
-References
+## References
 
 [1] G. V. Lauder and E. D. Tytell, &quot;Hydrodynamics of undulatory propulsion,&quot; _Fish Physiology_, pp. 425–468, 2005.
 
@@ -191,7 +191,7 @@ References
 
 [6] Chen, Z. Wu, H. Dong, M. Tan, and J. Yu, &quot;Exploration of swimming performance for a biomimetic multi-joint robotic fish with a compliant passive joint,&quot; _Bioinspiration &amp; Biomimetics_, vol. 16, no. 2, p. 026007, 2020.
 
-Appendix Ⅰ
+## Appendix Ⅰ
 
 Results of Frontal drag experimental test.
 
@@ -203,9 +203,5 @@ Results of Frontal drag experimental test.
 | Robot | 0.10 | 0.0115 | 0.002296 |
 | Robot | 0.15 | 0.0214 | 0.001904 |
 | Robot | 0.20 | 0.0271 | 0.001358 |
-
-1
-
-## References
 
 [Return](/index)
