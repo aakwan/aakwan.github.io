@@ -204,7 +204,4 @@ Results of Frontal drag experimental test.
 | Robot | 0.15 | 0.0214 | 0.001904 |
 | Robot | 0.20 | 0.0271 | 0.001358 |
 
-* [Code](/quin pendulum swimming.md)
-* [Videos](/spine vids.md)
-
 [Return](/index)
