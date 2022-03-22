@@ -16,7 +16,8 @@ are used to translate the roll motion of the leg into rotational motion of the p
 The following pictures are the design iterations for the pulley attached to the DC motor. The 
 models were generated using Solidworks.
 
-
+**Version 1**
+<img width="100%" height="100%" align="center" src="https://aakwan.github.io/Images/Pulley V1.png">
 
 ## Videos
 
