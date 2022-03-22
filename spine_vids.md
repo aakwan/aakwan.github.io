@@ -17,3 +17,5 @@ For all the videos, the red plot is the simulated spine and the blue spine is th
 * Steep Taper
 <video src="https://youtu.be/IMNEd5XJlo4" controls="controls" width="100%" height="100%">
 </video>
+
+[Return](/index)
