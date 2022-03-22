@@ -10,7 +10,7 @@ cycle to help with the ankle push off of walking. Bungee cords are attached to b
 order to apply this force as well as apply an upward force when a person squat. The housing of the electronics, pulley, and
 guides for the bungee were 3D printed. The DC motor is a windshield wiper motor and the
 mounting plates were laser cut out of wood. An incremental rotary encoder and an MPU 6050
-are used to translate the roll motion of the leg into rotational motion of the pulley. The suit was able to successfully follow the gait cycle of a person as they walked. The steps that were not achieved was applying the assistive force at the hip in a reliable way. This was due to the limitation of the microprocessor. 
+are used to translate the roll motion of the leg into rotational motion of the pulley. The suit was able to successfully follow the gait cycle of a person as they walked. The steps that were not achieved was applying the assistive force at the hip in a reliable way. This was due to the limitation of the microprocessor and future work would have included integrating a Raspberry Pi to have more memory so that the system could utilize the IMU sensor data to dictate the phase of the gait cycle. 
 
 ## Pulley Versions
 The following pictures are the design iterations for the pulley attached to the DC motor. The 
