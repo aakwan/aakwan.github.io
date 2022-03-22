@@ -121,12 +121,9 @@ Simulation Constant Variables
 | Length | 0.25 | m |
 | Width | 0.04 | m |
 | Height | 0.003 | m |
-| TPU density | 1220 |
- |
-| Water density | 998 |
- |
-| Front Drag | 0.001599 |
- |
+| TPU density | 1220 | kg/m^3 |
+| Water density | 998 | kg/m^3 |
+| Front Drag | 0.001599 | m^2 |
 | Frequency | 1 | Hz |
 | Amplitude | 44 | deg |
 
