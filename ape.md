@@ -17,22 +17,22 @@ The following pictures are the design iterations for the pulley attached to the 
 models were generated using Solidworks.
 
 **Version 1**
-<img width="50%" height="50%" align="center" src="https://aakwan.github.io/Images/Pulley V1.png">
+<img width="100%" height="100%" align="center" src="https://aakwan.github.io/Images/Pulley V1.png">
 
 **Version 2**
-<img width="50%" height="50%" align="center" src="https://aakwan.github.io/Images/Pulley V2.png">
+<img width="100%" height="100%" align="center" src="https://aakwan.github.io/Images/Pulley V2.png">
 
 **Version 3**
-<img width="50%" height="50%" align="center" src="https://aakwan.github.io/Images/Pulley V3.png">
+<img width="100%" height="100%" align="center" src="https://aakwan.github.io/Images/Pulley V3.png">
 
 **Version 4**
 Front of the Pulley
-<img width="50%" height="50%" align="center" src="https://aakwan.github.io/Images/Pulley V4 Front.png">
+<img width="100%" height="100%" align="center" src="https://aakwan.github.io/Images/Pulley V4 Front.png">
 Back of Pulley
-<img width="50%" height="50%" align="center" src="https://aakwan.github.io/Images/Pulley V4 Back.png">
+<img width="100%" height="100%" align="center" src="https://aakwan.github.io/Images/Pulley V4 Back.png">
 
 **Version 5**
-<img width="50%" height="50%" align="center" src="https://aakwan.github.io/Images/Pulley V5.png">
+<img width="100%" height="100%" align="center" src="https://aakwan.github.io/Images/Pulley V5.png">
 
 ## Videos
 
