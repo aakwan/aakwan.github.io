@@ -351,15 +351,6 @@ else:
 
     Taper: Narrow | Simulated Velocity: -0.170973 | Experimental Velocity: -0.114535
     
-
-
-
-
-    <AxesSubplot:>
-
-
-
-
     
 ![png](output_1_3.png)
     
