@@ -7,8 +7,8 @@ This is Anson Kwan's portfolio website. Here I document all the existing and cur
 ## Current Projects
 
 * [The Efficiency of Spine Stiffness for Anguilliform Locomotion](/spines)
-  * [Code](/quin pendulum swimming)
-  * [Videos](/spine vids)
+  * [Code](/quin_pendulum_swimming)
+  * [Videos](/spine_vids)
 * [Upskilling the Workforce for Industry 4.0](/training_station)
 
 ## Previous Projects
