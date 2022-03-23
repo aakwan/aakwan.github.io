@@ -10,8 +10,7 @@ _**Abstract**_ **- In this paper, we discuss the methods and requirements to sim
 
 The locomotion of fish has been a well studied topic over the past few decades. Due to the developments of high speed video cameras, researchers have been able to gain a better understanding of fish locomotion, especially body/caudal fin pulpursion (BCF). BCF is the classification of swimming that generates propulsion through propagating waves through their bodies [1][2]. Eels utilize anguilliform locomotion, which exhibits the largest propagation of waves through the body relative to other forms of undulatory propulsion as seen in Fig. 1 (a). We are focusing on the motion of eels as opposed to other undulatory movements because they utilize the majority of their body to generate propulsion. Additionally, their body anatomy is very simplistic, largely consisting of the singular body fin as seen in Fig. 1(b). This makes the inspired design significantly less complex as no additional pectoral fins are necessary to generate this locomotion.
 
-![](RackMultipart20220322-4-18z5m5t_html_7f0dafd1b547dd8.png)
-
+<img width="100%" height="100%" align="center" src="https://aakwan.github.io/Images/Background figure.png">
 **Fig. 1.** (a)Four classical undulatory propulsion with corresponding gait cycles [1]. This figure highlights the phases and displacement of the fish during anguilliform locomotion. (b) Side profile of eels, noting that the body is the major fin of anguilliform propulsion [1].
 
   A. _Eel Inspired Robots_
@@ -42,8 +41,7 @@ To better understand the characteristics of the flexible spine, we chose to esti
 
 <img src="https://render.githubusercontent.com/render/math?math=k_{seg}= k * A_{cs}"> _(2)_
 
-![](RackMultipart20220322-4-18z5m5t_html_9c009a92c5989f61.png)
-
+<img width="100%" height="100%" align="center" src="https://aakwan.github.io/Images/Full_FBD.png">
 **Fig. 3.** Multi segmented model of a spine with _n_ segments, where b1…bn = scaled damping coefficient (eq. 1), k1…kn = scaled spring coefficient (eq. 2), cm1…cmn = center of mass of segment, θ1…θn = angle of rotation relative to global frame, Fd\_1…Fd\_n = drag force of surrounding water on each segment, FR is the drag force of the front cross section.
 
 Where bseg and kseg are the scaled constants, Acs is the cross section of the spine across the Y-Z plane, and mseg is the mass of the spine segment. The damping and spring coefficient relative to the taper, b and k respectively, were calculated using experimental data which will be discussed later in the paper. These scaling factors were selected because they are the major differences between each segment. In both eq. 1 and 2, the amount of material at each joint affects the output force generated. In linear damping, the mass is a factor in calculating the damping ratio so it was assumed that the mass of each segment would have an effect in this model.
@@ -54,7 +52,7 @@ From Fig. 3, the aerodynamic forces are being applied orthogonally to each segme
 
 Where _C__d_ is the drag coefficient, _⍴_ is the density of water, _v_ is the velocity, and _A_ is area of the segment. For this model there are two drag coefficients, the drag coefficient of a flat plate is 1 and the frontal drag coefficient is dependent on the testing configuration and was determined through experimental set up and will be discussed further on in Section Ⅱ.D.
 
-![](RackMultipart20220322-4-18z5m5t_html_3539dca06286b216.png) **Fig. 4.** Testing configuration to measure dynamic tests. Reflective marker at the non fixed end tracked through an Optitrack system. Left is the neutral state and the right is drawn 100mm to the right.
+<img width="100%" height="100%" align="center" src="https://aakwan.github.io/Images/dynamic_test.png"> **Fig. 4.** Testing configuration to measure dynamic tests. Reflective marker at the non fixed end tracked through an Optitrack system. Left is the neutral state and the right is drawn 100mm to the right.
 
   C. _Experimental Setup_
 
@@ -68,15 +66,11 @@ _Frontal Drag_
 
 To calculate the frontal drag coefficient and effective surface area, we attached a force sensor to the spine and dragged it through stable water conditions of a tank seen in Fig. 5.
 
-![](RackMultipart20220322-4-18z5m5t_html_fd9a638f06578371.jpg) ![](RackMultipart20220322-4-18z5m5t_html_5c97c8ea7a56a49d.jpg)
-
-**Fig. 5.** Carriage testing configuration of spine and force sensor for both servo and robotic arm tests, left and right respectively.
+![](RackMultipart20220322-4-18z5m5t_html_fd9a638f06578371.jpg) ![](RackMultipart20220322-4-18z5m5t_html_5c97c8ea7a56a49d.jpg) **Fig. 5.** Carriage testing configuration of spine and force sensor for both servo and robotic arm tests, left and right respectively.
 
 Due to the frontal surface area being very small it was assumed that the results would be very small. Knowing this, two tests were conducted experimentally to verify the constant. The first method was using a servo and string to pull the carriage at a constant velocity and measure the force against the spine. This can be seen in Fig. 6 (a) and used a string to pull the spine while another string was used to stabilize the carriage while the servo accelerated to the constant velocity. The second method was using a robotic arm to drag the carriage in the water as seen in Fig. 6 (b). The purposes of this second experiment is that the robotic arm has the capabilities of higher precision constant velocity and it eliminates the need of a secondary apparatus to stabilize the carriage, thus eliminating additional external variables into the system.
 
-![image9.jpg](RackMultipart20220322-4-18z5m5t_html_105509b995fdaf12.gif) ![image10.jpg](RackMultipart20220322-4-18z5m5t_html_ef4e9b2cb7f5d412.gif)
-
-**Fig. 6.** Testing set up in a water tank. (Top) Blue line is a string pulled by a servo and the orange line is a string to stabilize the carriage. (Bottom) UR-5 robot initial configuration to drag the spine through water.
+![image9.jpg](RackMultipart20220322-4-18z5m5t_html_105509b995fdaf12.gif) ![image10.jpg](RackMultipart20220322-4-18z5m5t_html_ef4e9b2cb7f5d412.gif) **Fig. 6.** Testing set up in a water tank. (Top) Blue line is a string pulled by a servo and the orange line is a string to stabilize the carriage. (Bottom) UR-5 robot initial configuration to drag the spine through water.
 
 _Constrained Swimming_
 
@@ -86,9 +80,9 @@ For the constrained swimming experiment, the spines were mounted to a similar ca
 
 _Dynamics_
 
-From the dynamics test, the data collected for each taper is shown below in Fig. 7. The data was cut off at 80% of the 100mm pull back position of the test denoted in the cut data of Fig. 7. The reason for this was to ![](RackMultipart20220322-4-18z5m5t_html_875b1ccdf3668f33.png) **Fig. 7.** Data collected from dynamic spine test. The full data is the entire test and the cut data is truncating data after the tip reaches 20% of the initial state.
+From the dynamics test, the data collected for each taper is shown below in Fig. 7. The data was cut off at 80% of the 100mm pull back position of the test denoted in the cut data of Fig. 7. The reason for this was to avoid the inherent viscoelastic hysteresis of the material. This property of TPU and other flexible materials is what causes the material to come to rest close to the neutral position and then creep over an extended period of time to reach the final neutral position. This characteristic is exhibited from 3-6 seconds in Fig. 7 as the spines slowly return to the zero position. If included, this data would therefore artificially decrease the damping and spring constant due to implying that the spines are stiffer than in reality. 
 
-avoid the inherent viscoelastic hysteresis of the material. This property of TPU and other flexible materials is what causes the material to come to rest close to the neutral position and then creep over an extended period of time to reach the final neutral position. This characteristic is exhibited from 3-6 seconds in Fig. 7 as the spines slowly return to the zero position. If included, this data would therefore artificially decrease the damping and spring constant due to implying that the spines are stiffer than in reality.
+<img width="100%" height="100%" align="center" src="https://aakwan.github.io/Images/Data_Visual.png"> **Fig. 7.** Data collected from dynamic spine test. The full data is the entire test and the cut data is truncating data after the tip reaches 20% of the initial state.
 
 _Frontal Drag_
 
@@ -100,9 +94,9 @@ The effective drag area was unknown for the system, which is why it is accounted
 
 _Constrained Swimming_
 
-The results of the swimming experiment are shown in Fig. 8 below. This data will be ![](RackMultipart20220322-4-18z5m5t_html_d23b5f487839ec48.png) **Fig. 8.** Data collected from the constrained swimming tests. The data is only plotting the linear motion of the head along the direction of motion.
+The results of the swimming experiment are shown in Fig. 8 below. This data will be compared with the simulated swimming experiment later in the paper in Section Ⅳ. The servo used for the experiment was controlled via position and had a sweeping angle of 44 degrees at a frequency of 1 Hz.
 
-compared with the simulated swimming experiment later in the paper in Section Ⅳ. The servo used for the experiment was controlled via position and had a sweeping angle of 44 degrees at a frequency of 1 Hz.
+<img width="100%" height="100%" align="center" src="https://aakwan.github.io/Images/swimming.png"> **Fig. 8.** Data collected from the constrained swimming tests. The data is only plotting the linear motion of the head along the direction of motion.
 
 This sweep angle and frequency were held constant for all three tests. High speed videos were then recorded of each spine and used for data collection. This data was collected through using a tracking software called Tracker to plot the position of the head in recorded videos of the experiment.
 
@@ -129,13 +123,13 @@ simplified through a flat plate model and the aerodynamic forces could use coeff
 
 Using the simulation, the next step was to fit the data from the dynamic test to solve for the
 
-![](RackMultipart20220322-4-18z5m5t_html_672ab102d0656447.png) **Fig. 9.** (a) Frame diagram of rigid body representation as a three link system. Representation of tapers in a three(b) and five(c) link model where the green dashed line is the actual spine with constant stiffness gradient and black lines are the mass and inertial representation in the model.
+<img width="100%" height="100%" align="center" src="https://aakwan.github.io/Images/combined_FBD_figure_V2.png"> **Fig. 9.** (a) Frame diagram of rigid body representation as a three link system. Representation of tapers in a three(b) and five(c) link model where the green dashed line is the actual spine with constant stiffness gradient and black lines are the mass and inertial representation in the model.
 
 damping and spring coefficients discussed in Section Ⅲ. In order to do this, it was first necessary to solve for the initial conditions of each joint. The reason for this was to match the initial position of the tip in each experiment and also to minimize any ripples created from not correctly setting the initial joint states. These values were calculated through applying a constant force perpendicular to the tip of the spine. Then using the SciPy python package we optimized the force magnitude to match the initial displacement of the spine and recorded the initial rotations of each joint. These were then used as the initial conditions of the simulated dynamic test.
 
 An evolutionary algorithm, CMA-ES was used to fit the simulated to experimental tip data to solve for the damping and spring constants as seen in Fig. 10. The results for each taper were then recorded and plotted and linear regression lines were calculated. To determine the spine model that best fit, a
 
-![](RackMultipart20220322-4-18z5m5t_html_885d413b3bec5549.png) **Fig. 10.** Results of fitted damping and spring constants using CMA-ES for a 5-link model.
+<img width="100%" height="100%" align="center" src="https://aakwan.github.io/Sim_vs_Data.png"> **Fig. 10.** Results of fitted damping and spring constants using CMA-ES for a 5-link model.
 
 variable number of segments were used to determine the best results. The five link model had the highest R2 values and therefore was considered to have the best results. The resulting fit model is shown in Fig. 10 and the lines of regression were as follows:
 
