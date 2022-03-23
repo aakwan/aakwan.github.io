@@ -45,9 +45,7 @@ Video of passive walking test with integration of IMU sensor loop and tuned PID 
 <video src="https://youtu.be/tk-KNEG1uyw" controls="controls" width="100%" height="100%">
 </video>
 
-<p align="center>
-<iframe width="560" height="315" src="http://www.youtube.com/embed/tk-KNEG1uyw" title="Yotube Video Player" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</p>
                                                                                                                         
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tk-KNEG1uyw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [Return](/index)
