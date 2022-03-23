@@ -41,4 +41,8 @@ Video of testing intertial mesurment unit (IMU) integration with PID loop contro
 <video src="https://aakwan.github.io/Videos/Test.MOV" controls="controls" width="100%" height="100%">
 </video>
 
+Video of passive walking test with integration of IMU sensor loop and tuned PID loop.
+<video src="https://youtu.be/tk-KNEG1uyw" controls="controls" width="100%" height="100%">
+</video>
+
 [Return](/index)
