@@ -50,7 +50,7 @@ Where bseg and kseg are the scaled constants, Acs is the cross section of the sp
 
 From Fig. 3, the aerodynamic forces are being applied orthogonally to each segment and to the head of the spine. The head is the portion of the spine that is attached to the mounting hardware to suspend the system in water as seen in Fig. 5. The equation used to calculate the drag force is as follows:
 
-<img src="https://render.githubusercontent.com/render/math?math=F_{d}= 0.5 * C_{d} * ⍴ * v^2 * A"> _(3)_
+<img src="https://render.githubusercontent.com/render/math?math=F_{d}= 0.5 * C_{d} * \rho * v^2 * A"> _(3)_
 
 Where _C__d_ is the drag coefficient, _⍴_ is the density of water, _v_ is the velocity, and _A_ is area of the segment. For this model there are two drag coefficients, the drag coefficient of a flat plate is 1 and the frontal drag coefficient is dependent on the testing configuration and was determined through experimental set up and will be discussed further on in Section Ⅱ.D.
 
@@ -94,7 +94,7 @@ _Frontal Drag_
 
 In the frontal drag experiment, the velocity and drag force were the design parameters and measured results for this test. Using eq. 3, the following front drag constant was derived:
 
-<img src="https://render.githubusercontent.com/render/math?math=C_{d} * A = \frac{2 * F_{d}}{⍴ * v^2}"> _(4)_
+<img src="https://render.githubusercontent.com/render/math?math=C_{d} * A = \frac{2 * F_{d}}{\rho * v^2}"> _(4)_
 
 The effective drag area was unknown for the system, which is why it is accounted for in the frontal drag constant. In collecting the data it was observed that the measured force was in the range of 0.04-0.01 N which was within the noise range of the sensor which can be seen in Appendix Ⅰ. Therefore, it was difficult to calculate a constant that accurately reflected the system. Based on the data collected from the experiment an estimated value was shown in Tab. 1. The results of the frontal drag experiment did not lead to any direct results and a higher resolution sensor is necessary to determine conclusive results.
 
@@ -147,7 +147,7 @@ Where b and k are the damping and spring force respectively and x is the taper i
 
 Global x and y positions were added to the simulation to allow for the simulated spine to move in free space. Additionally, dynamic constraints were added to the system to model the position control of the motor seen in eq. 7 below.
 
-<img src="https://render.githubusercontent.com/render/math?math=pos = A * \cos{2 * \pi * f * t}"> _(7)_
+<img src="https://render.githubusercontent.com/render/math?math=pos = A * \cos{(2 * \pi * f * t)}"> _(7)_
 
 Where _A_ is the amplitude, _f_ is the frequency, and _t_ is the simulation time. Both the amplitude and frequency values are defined in Tab. Ⅰ. The dynamic constraint is then applied to the first link of the simulation, to mimic the torque applied to the head of the swimming experiment.
 
