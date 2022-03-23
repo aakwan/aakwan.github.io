@@ -38,13 +38,9 @@ By creating different tapers, the objective was to investigate and isolate the c
 
 To better understand the characteristics of the flexible spine, we chose to estimate the system as a series of flat plate links and torsional springs as seen in Fig. 3. The spine was broken into equal segments where the damping and spring constants were scaled using the equations below:
 
-$$
-b_seg = b * A_cs * m_seg (1)
-$$
+<img src="https://render.githubusercontent.com/render/math?math=b_{seg}= b * A_{cs} * m_{seg}"> _(1)_
 
-<img src="https://render.githubusercontent.com/render/math?math=b_{seg}=b * A_{cs} * m_{seg}"> _(1)_
-
-(2)
+<img src="https://render.githubusercontent.com/render/math?math=k_{seg}= k * A_{cs}"> _(2)_
 
 ![](RackMultipart20220322-4-18z5m5t_html_9c009a92c5989f61.png)
 
@@ -54,7 +50,7 @@ Where bseg and kseg are the scaled constants, Acs is the cross section of the sp
 
 From Fig. 3, the aerodynamic forces are being applied orthogonally to each segment and to the head of the spine. The head is the portion of the spine that is attached to the mounting hardware to suspend the system in water as seen in Fig. 5. The equation used to calculate the drag force is as follows:
 
-(3)
+<img src="https://render.githubusercontent.com/render/math?math=F_{d}= 0.5 * C_{d} * ⍴ * v^2 * A"> _(3)_
 
 Where _C__d_ is the drag coefficient, _⍴_ is the density of water, _v_ is the velocity, and _A_ is area of the segment. For this model there are two drag coefficients, the drag coefficient of a flat plate is 1 and the frontal drag coefficient is dependent on the testing configuration and was determined through experimental set up and will be discussed further on in Section Ⅱ.D.
 
@@ -98,7 +94,7 @@ _Frontal Drag_
 
 In the frontal drag experiment, the velocity and drag force were the design parameters and measured results for this test. Using eq. 3, the following front drag constant was derived:
 
-(4)
+<img src="https://render.githubusercontent.com/render/math?math=C_{d} * A = \frac{2 * F_{d}}{⍴ * v^2}"> _(4)_
 
 The effective drag area was unknown for the system, which is why it is accounted for in the frontal drag constant. In collecting the data it was observed that the measured force was in the range of 0.04-0.01 N which was within the noise range of the sensor which can be seen in Appendix Ⅰ. Therefore, it was difficult to calculate a constant that accurately reflected the system. Based on the data collected from the experiment an estimated value was shown in Tab. 1. The results of the frontal drag experiment did not lead to any direct results and a higher resolution sensor is necessary to determine conclusive results.
 
@@ -143,15 +139,15 @@ An evolutionary algorithm, CMA-ES was used to fit the simulated to experimental 
 
 variable number of segments were used to determine the best results. The five link model had the highest R2 values and therefore was considered to have the best results. The resulting fit model is shown in Fig. 10 and the lines of regression were as follows:
 
-(5)
+<img src="https://render.githubusercontent.com/render/math?math=b = -569.1x + 5824.6"> _(5)_
 
-(6)
+<img src="https://render.githubusercontent.com/render/math?math=k = -256.04x + 2611.5"> _(6)_
 
 Where b and k are the damping and spring force respectively and x is the taper in degrees. The CMA-ES results follow the trend but do not match the data. This is likely due to the data not being zeroed and the viscoelastic property. Equations 5 and 6 were then integrated into the python model. This now allowed any taper value to be inputted into the simulation and resulted in damping and spring constants for that designated taper.
 
 Global x and y positions were added to the simulation to allow for the simulated spine to move in free space. Additionally, dynamic constraints were added to the system to model the position control of the motor seen in eq. 7 below.
 
-(7)
+<img src="https://render.githubusercontent.com/render/math?math=pos = A * \cos{2 * \pi * f * t}"> _(7)_
 
 Where _A_ is the amplitude, _f_ is the frequency, and _t_ is the simulation time. Both the amplitude and frequency values are defined in Tab. Ⅰ. The dynamic constraint is then applied to the first link of the simulation, to mimic the torque applied to the head of the swimming experiment.
 
