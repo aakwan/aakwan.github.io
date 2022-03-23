@@ -41,10 +41,9 @@ To better understand the characteristics of the flexible spine, we chose to esti
 
 <img src="https://render.githubusercontent.com/render/math?math=k_{seg}= k * A_{cs}"> _(2)_
 
-<img width="100%" height="100%" align="center" src="https://aakwan.github.io/Images/Full_FBD.png">
-**Fig. 3.** Multi segmented model of a spine with _n_ segments, where b1…bn = scaled damping coefficient (eq. 1), k1…kn = scaled spring coefficient (eq. 2), cm1…cmn = center of mass of segment, θ1…θn = angle of rotation relative to global frame, Fd\_1…Fd\_n = drag force of surrounding water on each segment, FR is the drag force of the front cross section.
-
 Where bseg and kseg are the scaled constants, Acs is the cross section of the spine across the Y-Z plane, and mseg is the mass of the spine segment. The damping and spring coefficient relative to the taper, b and k respectively, were calculated using experimental data which will be discussed later in the paper. These scaling factors were selected because they are the major differences between each segment. In both eq. 1 and 2, the amount of material at each joint affects the output force generated. In linear damping, the mass is a factor in calculating the damping ratio so it was assumed that the mass of each segment would have an effect in this model.
+
+<img width="100%" height="100%" align="center" src="https://aakwan.github.io/Images/Full_FBD.png"> **Fig. 3.** Multi segmented model of a spine with _n_ segments, where b1…bn = scaled damping coefficient (eq. 1), k1…kn = scaled spring coefficient (eq. 2), cm1…cmn = center of mass of segment, θ1…θn = angle of rotation relative to global frame, Fd\_1…Fd\_n = drag force of surrounding water on each segment, FR is the drag force of the front cross section.
 
 From Fig. 3, the aerodynamic forces are being applied orthogonally to each segment and to the head of the spine. The head is the portion of the spine that is attached to the mounting hardware to suspend the system in water as seen in Fig. 5. The equation used to calculate the drag force is as follows:
 
