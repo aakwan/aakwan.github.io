@@ -42,7 +42,7 @@ $$
 b_seg = b * A_cs * m_seg (1)
 $$
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;b_seg=b A_cs m_seg" title="\Large b_seg=b A_cs m_seg" /> (1)
 
 (2)
 
