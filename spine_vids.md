@@ -7,15 +7,18 @@ title: Videos of Experimental Spines
 For all the videos, the red plot is the simulated spine and the blue spine is the experimental device
 
 * No Taper
-<video src="https://youtu.be/Sddvt4OLvpA" controls="controls" width="100%" height="100%">
-</video>
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Sddvt4OLvpA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
 
 * Narrow Taper
-<video src="https://youtu.be/BAWinUyyKEY" controls="controls" width="100%" height="100%">
-</video>
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BAWinUyyKEY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
 
 * Steep Taper
-<video src="https://youtu.be/IMNEd5XJlo4" controls="controls" width="100%" height="100%">
-</video>
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IMNEd5XJlo4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
 
 [Return](/index)
