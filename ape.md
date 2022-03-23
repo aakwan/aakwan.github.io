@@ -38,7 +38,8 @@ Back of Pulley
 ## Videos
 
 Video of testing intertial mesurment unit (IMU) integration with PID loop control of DC motor.
-<p align="center>
+
+<p align="center">
 <video src="https://aakwan.github.io/Videos/Test.MOV" controls="controls" width="560" height="315">
 </video>
 </p>                                                                                                 
