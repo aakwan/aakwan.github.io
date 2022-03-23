@@ -38,8 +38,10 @@ Back of Pulley
 ## Videos
 
 Video of testing intertial mesurment unit (IMU) integration with PID loop control of DC motor.
+<p align="center>
 <video src="https://aakwan.github.io/Videos/Test.MOV" controls="controls" width="560" height="315">
 </video>
+</p>                                                                                                 
 
 Video of passive walking test with integration of IMU sensor loop and tuned PID loop.                                                                                   
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tk-KNEG1uyw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
