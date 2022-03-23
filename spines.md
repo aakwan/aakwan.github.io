@@ -128,7 +128,7 @@ damping and spring coefficients discussed in Section Ⅲ. In order to do this, i
 
 An evolutionary algorithm, CMA-ES was used to fit the simulated to experimental tip data to solve for the damping and spring constants as seen in Fig. 10. The results for each taper were then recorded and plotted and linear regression lines were calculated. To determine the spine model that best fit, a
 
-<img width="100%" height="100%" align="center" src="https://aakwan.github.io/Sim_vs_Data.png"> **Fig. 10.** Results of fitted damping and spring constants using CMA-ES for a 5-link model.
+<img width="100%" height="100%" align="center" src="https://aakwan.github.io/Images/Sim_vs_Data.png"> **Fig. 10.** Results of fitted damping and spring constants using CMA-ES for a 5-link model.
 
 variable number of segments were used to determine the best results. The five link model had the highest R2 values and therefore was considered to have the best results. The resulting fit model is shown in Fig. 10 and the lines of regression were as follows:
 
