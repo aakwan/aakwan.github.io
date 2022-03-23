@@ -42,7 +42,7 @@ $$
 b_seg = b * A_cs * m_seg (1)
 $$
 
-<img src="https://render.githubusercontent.com/render/math?math=b_{seg}=b A_{cs} m_{seg}"> (1)
+<img src="https://render.githubusercontent.com/render/math?math=b_{seg}=b * A_{cs} * m_{seg}"> _(1)_
 
 (2)
 
