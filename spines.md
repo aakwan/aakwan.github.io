@@ -38,7 +38,7 @@ By creating different tapers, the objective was to investigate and isolate the c
 
 To better understand the characteristics of the flexible spine, we chose to estimate the system as a series of flat plate links and torsional springs as seen in Fig. 3. The spine was broken into equal segments where the damping and spring constants were scaled using the equations below:
 
-$b_seg$ = b*A_cs*m_seg(1)
+$b_seg$ = $b$ * $A_cs$ * $m_seg$ (1)
 
 (2)
 
