@@ -30,7 +30,7 @@ From the previous research done with regards to eel inspired robots, this resear
 
 In order to better understand the relationship of the material characteristics to damping and spring constant values, multiple spines with varying tapers along the length of the beam were printed as seen in Fig. 2. The spines were printed as solid Thermoplastic polyurethane (TPU) beams. The length of each spine was 0.25m as shown in Tab. Ⅰ because this was the limitation of the print bed. Longer spines could have been created through joining multiple segments but in order to minimize exterior factors, it was best to use only one segment to isolate the characteristics of the spine.
 
-![](RackMultipart20220322-4-18z5m5t_html_86e47a47c905497a.png) **Fig. 2.** The 3D printed spines are made from TPU. From top to bottom the tapers of each spine are 0, 2.25, and 4.5 degrees.
+<img width="100%" height="100%" align="center" src="https://aakwan.github.io/Images/Spines.png"> **Fig. 2.** The 3D printed spines are made from TPU. From top to bottom the tapers of each spine are 0, 2.25, and 4.5 degrees.
 
 By creating different tapers, the objective was to investigate and isolate the characteristics of damping and stiffness with regards to TPU. The taper along the length was determined to generate the stiffness gradient because it was the only direction of taper that could be consistent with the method of manufacturing. A taper along the width of the spine could not be repeatable due to the variation in layer heights with different tapers when 3D printing. This would result in a varied amount of material depending on the taper and not produce meaningful results because of this irregularity.
 
