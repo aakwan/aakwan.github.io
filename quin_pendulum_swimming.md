@@ -352,19 +352,19 @@ else:
     Taper: Narrow | Simulated Velocity: -0.170973 | Experimental Velocity: -0.114535
     
     
-![png](Images\output_1_3.png)
+![png](output_1_3.png)
     
 
 
 
     
-![png](Images\output_1_4.png)
+![png](output_1_4.png)
     
 
 
 
     
-![png](Images\output_1_5.png)
+![png](output_1_5.png)
     
 
 
