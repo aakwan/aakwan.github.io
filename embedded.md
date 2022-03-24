@@ -2,6 +2,9 @@
 title: Embedded Systems Courses
 ---
 
+## Introduction
+The purpose of this class was to design an embedded system to build a Rube Goldberg machine using everyday materials. For this class, I design, selected and integrated all the sensors and motors for this system. I also deisnged and manfuactured a custom PCB using Cadence. The two microcontrollers used for this project was a PSoC and Photon. The PSoC was in charge of all the onboard commands and logic of the controllers and motor and the Photon transmitted messages to other classmates over an mqtt server.
+
 ## Report
 
 <embed src="https://aakwan.github.io/Images/Team_205_Anson_Report.pdf" type="application/pdf" width="800" height="800"/>
