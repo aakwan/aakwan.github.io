@@ -2,7 +2,7 @@
 title: Embedded Systems Courses
 ---
 
-# Report
+## Report
 
 <embed src="https://aakwan.github.io/Images/Team_205_Anson_Report.pdf" type="application/pdf" width="800" height="800"/>
 
